@@ -22,16 +22,6 @@ public class VendingMachine {
         return null;
     }
 
-    public List<Product> getProductsByBrand(String brand) {
-        List<Product> matchingProducts = new ArrayList<>();
-        for (Product product : products) {
-            if (product.getBrand().equalsIgnoreCase(brand)) {
-                matchingProducts.add(product);
-            }
-        }
-        return matchingProducts;
-    }
-
     public List<ChocolateBar> getChocolateBarsByCriteria(double minCalories, double maxPrice) {
         List<ChocolateBar> matchingBars = new ArrayList<>();
         for (Product product : products) {
