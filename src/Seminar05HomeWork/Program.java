@@ -14,6 +14,7 @@ public class Program {
 
     /**
      * TODO: Домашняя работа: Метод changeReservationTable ДОЛЖЕН ЗАРАБОТАТЬ!
+     * Добавлено меню выбора действий и метод отмены бронирования
      *
      * @param args
      */
