@@ -1,7 +1,9 @@
 package Seminar06HomeWork;
 
 
+import Seminar06HomeWork.srp2.ConsoleInputReader;
 import Seminar06HomeWork.srp2.Order;
+import Seminar06HomeWork.srp2.OrderWriter;
 
 public class Program {
 
@@ -10,9 +12,12 @@ public class Program {
      * @param args
      */
     public static void main(String[] args) {
-        Order order = new Order();
-        order.inputFromConsole();
-        order.saveToJson();
+        System.out.println("Введите заказ:");
+        ConsoleInputReader inputReader = new ConsoleInputReader();
+        Order order = inputReader.readOrderFromConsole();
+
+        OrderWriter orderWriter = new OrderWriter();
+        orderWriter.saveToJson(order);
     }
 
 }
