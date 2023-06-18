@@ -15,3 +15,5 @@
 * [Домашнее задание к Семинару 5](https://github.com/MoraKsu/OOP_Java/tree/master/src/Seminar05HomeWork)
 * [Семинар 6](https://github.com/MoraKsu/OOP_Java/tree/master/src/Seminar06)
 * [Домашнее задание к Семинару 6](https://github.com/MoraKsu/OOP_Java/tree/master/src/Seminar06HomeWork)
+* [Семинар 7](https://github.com/MoraKsu/OOP_Java/tree/master/src/Seminar07)
+* [Домашнее задание к Семинару 7](https://github.com/MoraKsu/OOP_Java/tree/master/src/Seminar07HomeWork/observer)
