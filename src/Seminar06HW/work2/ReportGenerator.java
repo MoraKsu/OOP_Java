@@ -1,6 +1,6 @@
-package work2;
+package Seminar06HW.work2;
 
 public interface ReportGenerator {
-    String generateXml();
-    String generateJson();
+    String generateXml(ReportContentProvider contentProvider);
+    String generateJson(ReportContentProvider contentProvider);
 }

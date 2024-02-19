@@ -1,7 +1,7 @@
-package work1;
+package Seminar06HW.work1;
 
 // Прямоугольник
-public class Rectangle {
+public class Rectangle extends Shape {
 
     int height;
     int width;

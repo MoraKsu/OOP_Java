@@ -1,16 +1,17 @@
-package work1;
+package Seminar06HW.work1;
 
 // Квадрат
-public class Square extends Rectangle {
+public class Square extends Shape {
 
+    @Override
     public void setHeight(int height) {
-        this.height = height;
-        this.width = height;
+        super.setHeight(height);
+        super.setWidth(height);
     }
 
     @Override
     public void setWidth(int width) {
-        this.width = width;
-        this.height = width;
+        super.setWidth(width);
+        super.setHeight(width);
     }
 }
